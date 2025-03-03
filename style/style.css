@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #222222;
+    background-image: url(../assets/imagens/ceu.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
     color: white;
     height: 100vh;
     display: flex;
@@ -14,5 +17,51 @@ body{
 
 }
 main{
-    padding: 2rem;
+    width: 450px;
+    min-height: 150px;
+    height: auto;
+    background-color: rgb(69, 156, 214);
+    border-radius: 10px;
+    padding: 1rem;
+   gap: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+section#form{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#form h1{
+    font-size: 2rem;
+}
+section#form input{
+    padding: 0.8rem;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+
+    
+}
+section#form button{
+    padding: .8rem;
+    border-radius: 10px;
+    border: none;
+}
+section#form img{
+    width: 270px;
+    height: auto;
+    
+}
+section#section-tempo{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 10px;
+    padding: 1rem;
+    align-items: center;
 }

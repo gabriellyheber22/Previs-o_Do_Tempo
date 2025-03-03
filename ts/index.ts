@@ -1,5 +1,5 @@
 const formulario = document.getElementById('form');
-const input: HTMLInputElement | null = document.querySelector("#city");
+const input: HTMLInputElement | null = document.querySelector("#city"); 
 const sectionTemp = document.getElementById('section-tempo');
 
 formulario?.addEventListener("submit", async (event) => { /*  async para tornar a requisição assincrona e não travar a página*/
